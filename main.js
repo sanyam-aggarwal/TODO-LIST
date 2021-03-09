@@ -39,7 +39,7 @@ app.get("/", function(req, res)
 
 
 // handling script.js route
-app.get("/script.js", function(req, res)
+app.get("/todo.js", function(req, res)
 {
     readAndServe("./todo.js", "text/javascript", res)
     
