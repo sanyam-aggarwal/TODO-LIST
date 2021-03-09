@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container-fluid">
+ 
+            <div class="row">
+
+              <div class="col-lg-5 " id="todo">
+                
+                <div >   
+                    <h1>TALK LIST</h1>
+                    <p>Add task to your list by typing and pressing enter. Yoy may then view pending tsks below</p><br>
+                    <ul id="myUL">
+                        <li>First task</li>
+                        <hr>
+                        <li>Second task</li><hr>
+                        <li>Third task</li><hr>
+                    </ul>
+                </div>
+              
+                </div>
+              
+                    <div class="col-lg-7">
+              
+                    <div id="input">
+                
+                        <input type="text" placeholder="I need to..." id="myInput" >
+                
+                        <span onclick="newElement()" class="addBtn">Add</span>
+              
+                    </div>
+            
+                 </div>
+            </div>
+          
+        </div>
+
+       <script src="todo.js"></script> 
+    </body>
+</html>
